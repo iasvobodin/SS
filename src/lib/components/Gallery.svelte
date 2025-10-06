@@ -18,21 +18,21 @@
 
 <section class="gallery">
 	<div class="container">
-		<h2 bind:this={galleryHeader} class="section-header animate-fade-up">
+		<h2 bind:this={galleryHeader} class="section-header">
 			<span class="gradient-wrapper">Вот какими могут быть твои фотографии</span>
 		</h2>
 		<div class="gallery-grid">
 			{#each galleryItems as item, i}
 				<div
 					bind:this={galleryElements[i]}
-					class="gallery-item animate-fade-up"
+					class="gallery-item"
 					style="animation-delay: {i * 0.1}s"
 				>
 					{item}
 				</div>
 			{/each}
 		</div>
-		<p bind:this={galleryCaption} class="gallery-caption animate-fade-up">
+		<p bind:this={galleryCaption} class="gallery-caption">
 			Все фото — обычные девушки, каждая со своей историей. Как и ты.
 		</p>
 	</div>

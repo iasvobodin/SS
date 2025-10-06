@@ -25,16 +25,12 @@
 
 <section class="packages">
 	<div class="container">
-		<h2 bind:this={packagesHeader} class="section-header animate-fade-up">
+		<h2 bind:this={packagesHeader} class="section-header">
 			<span class="gradient-wrapper">Съёмка, которую ты выбираешь</span>
 		</h2>
 		<div class="packages-grid">
 			{#each packages as pkg, i}
-				<div
-					bind:this={packageElements[i]}
-					class="package animate-fade-up"
-					style="animation-delay: {i * 0.2}s"
-				>
+				<div bind:this={packageElements[i]} class="package" style="animation-delay: {i * 0.2}s">
 					<div class="package-header">
 						<h3>{pkg.title}</h3>
 					</div>
@@ -47,7 +43,7 @@
 					</div>
 					<div class="package-footer">
 						<div class="package-price">{pkg.price}</div>
-						<button class="cta-button" on:click={scrollToContact}> Выбрать </button>
+						<button class="cta-button" data-scroll-to="#contact"> Выбрать </button>
 					</div>
 				</div>
 			{/each}

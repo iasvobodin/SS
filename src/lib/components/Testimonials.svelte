@@ -20,14 +20,14 @@
 
 <section class="testimonials">
 	<div class="container">
-		<h2 bind:this={testimonialsHeader} class="section-header animate-fade-up">
+		<h2 bind:this={testimonialsHeader} class="section-header">
 			<span class="gradient-wrapper">Что говорят девушки после съёмки</span>
 		</h2>
 		<div class="testimonials-grid">
 			{#each testimonials as testimonial, i}
 				<div
 					bind:this={testimonialElements[i]}
-					class="testimonial animate-fade-up"
+					class="testimonial"
 					style="animation-delay: {i * 0.2}s"
 				>
 					<div class="testimonial-photo"></div>

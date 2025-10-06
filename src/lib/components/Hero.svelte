@@ -14,15 +14,13 @@
 <section class="hero">
 	<div class="container">
 		<div class="hero-content">
-			<h1 bind:this={heroTitle} class="hero-title animate-fade-up">
+			<h1 bind:this={heroTitle} class="hero-title">
 				<span class="gradient-wrapper">Фотосессия, в которой ты чувствуешь себя собой.</span>
 			</h1>
-			<p bind:this={heroSubtitle} class="hero-subtitle animate-fade-up">
+			<p bind:this={heroSubtitle} class="hero-subtitle">
 				Без глянца. Без давления. Без масок. Только ты, твоя история и честная фотография.
 			</p>
-			<button bind:this={heroButton} class="cta-button animate-fade-up" on:click={scrollToContact}>
-				Записаться на съёмку
-			</button>
+			<button class="cta-button" data-scroll-to="#contact"> Записаться на съёмку </button>
 		</div>
 	</div>
 </section>

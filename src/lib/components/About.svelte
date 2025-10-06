@@ -8,43 +8,39 @@
 		<!-- Desktop version -->
 		<div class="about-content about-desktop">
 			<div class="about-text">
-				<h2 bind:this={aboutTitle} class="animate-fade-up">
+				<h2 bind:this={aboutTitle}>
 					<span class="gradient-wrapper">Привет! Меня зовут Настя</span>
 				</h2>
-				<p bind:this={aboutText1} class="animate-fade-up">
-					Я фотограф, который работает с реальными людьми.
-				</p>
-				<p bind:this={aboutText2} class="animate-fade-up">
+				<p bind:this={aboutText1}>Я фотограф, который работает с реальными людьми.</p>
+				<p bind:this={aboutText2}>
 					Я снимаю девушек, которые хотят увидеть себя не как «проект», а как живую, настоящую
 					личность.
 				</p>
-				<p bind:this={aboutText3} class="animate-fade-up">
+				<p bind:this={aboutText3}>
 					У меня нет цели «перекроить» тебя. Моя цель — помочь тебе увидеть, что ты прекрасна. Уже
 					сейчас.
 				</p>
 			</div>
-			<div bind:this={aboutImage} class="about-image animate-scale">
+			<div bind:this={aboutImage} class="about-image">
 				<span>Портрет фотографа<br />с камерой</span>
 			</div>
 		</div>
 
 		<!-- Mobile version -->
 		<div class="about-content about-mobile">
-			<h2 bind:this={mobileTitle} class="animate-fade-up">
+			<h2 bind:this={mobileTitle}>
 				<span class="gradient-wrapper">Привет! Меня зовут Настя</span>
 			</h2>
-			<div bind:this={mobileImage} class="about-image animate-scale">
+			<div bind:this={mobileImage} class="about-image">
 				<span>Портрет фотографа<br />с камерой</span>
 			</div>
 			<div class="about-text-mobile">
-				<p bind:this={mobileText1} class="animate-fade-up">
-					Я фотограф, который работает с реальными людьми.
-				</p>
-				<p bind:this={mobileText2} class="animate-fade-up">
+				<p bind:this={mobileText1}>Я фотограф, который работает с реальными людьми.</p>
+				<p bind:this={mobileText2}>
 					Я снимаю девушек, которые хотят увидеть себя не как «проект», а как живую, настоящую
 					личность.
 				</p>
-				<p bind:this={mobileText3} class="animate-fade-up">
+				<p bind:this={mobileText3}>
 					У меня нет цели «перекроить» тебя. Моя цель — помочь тебе увидеть, что ты прекрасна. Уже
 					сейчас.
 				</p>

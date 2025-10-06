@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://promo.svobodinaphoto.ru/sitemap.xml
+
+# Блокируем служебные файлы
+Disallow: /_app/
+Disallow: /api/
+
+# Яндекс и Google имеют приоритет
+User-agent: Yandex
+Allow: /
+
+User-agent: Googlebot
+Allow: /

@@ -1,5 +1,5 @@
 <script>
-	import { sendToTelegram } from '$lib/utils/telegram.js';
+	import { sendToTelegram } from '$lib/utils/telegram';
 
 	let contactHeader = $state();
 	let contactForm = $state();

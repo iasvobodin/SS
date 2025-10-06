@@ -8,7 +8,7 @@
 	import Packages from '$lib/components/Packages.svelte';
 	import Contact from '$lib/components/Contact.svelte';
 	import Footer from '$lib/components/Footer.svelte';
-	import { initAnimations } from '$lib/utils/animations.ts';
+	import { initAnimations } from '$lib/utils/animations';
 
 	onMount(() => {
 		initAnimations();

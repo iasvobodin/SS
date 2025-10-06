@@ -32,7 +32,7 @@ body {
     color: transparent;
     -webkit-text-fill-color: transparent;
     background-size: 300% 100%;
-    background-position-x: 100%;
+    background-position-x: 0%;
     transition: background-position-x 1300ms cubic-bezier(0.37, 0, 0.63, 1);
     display: inline-block;
 }
@@ -62,6 +62,8 @@ body {
     transform: translateY(-2px);
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
+
+
 
 /* Section headers */
 .section-header {
